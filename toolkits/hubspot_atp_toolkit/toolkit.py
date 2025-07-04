@@ -8,7 +8,7 @@ load_dotenv()
 
 client = ToolKitClient(
     api_key=os.getenv('TAVILY_TOOLKIT_API_KEY'),
-    app_name=os.getenv('HUBSPOT_TOOLKIT_NAME')
+    app_name=os.getenv('TAVILY_TOOLKIT_NAME')
 )
 
 @client.register_tool(

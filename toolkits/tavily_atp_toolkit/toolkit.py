@@ -9,7 +9,7 @@ load_dotenv()  # 🔥 Load variables from .env file
 # Init ToolKitClient
 client = ToolKitClient(
     api_key=os.getenv('HUBSPOT_TOOLKIT_API_KEY'),   # Replace with your real ToolKit API key
-    app_name=os.getenv('TAVILY_TOOLKIT_NAME')
+    app_name=os.getenv('HUBSPOT_TOOLKIT_NAME')
 )
 
 # Tool 1: Search
